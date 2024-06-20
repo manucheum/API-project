@@ -1,0 +1,63 @@
+.register-login {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px;
+  }
+  
+  .register {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .register form {
+    margin-top: 20px;
+  }
+  
+  .register input[type="text"],
+  .register input[type="email"],
+  .register input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .register button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .register button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .register .facebook {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .register .facebook button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4267B2;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .register .facebook button:hover {
+    background-color: #385898;
+  }
+  
+  .user-login {
+    flex: 1;
+  }
